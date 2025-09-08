@@ -1,0 +1,31 @@
+Generate playwright test for the following scenario:
+1. Navigate to https://automationexercise.com
+2. Click on Signup/Login
+3. Fill email as ceo.nadella@example.com
+4. Fill password as ceo100microsoft
+5. Click Login
+6. Verify the text "Logged in as Satya Nadella"
+7. Click on Products
+8. In the search box type "Men Tshirt"
+9. Click on the search icon
+10. Click on "Add to cart"
+11. Verify the text "Your product has been added to cart"
+12. Click on "View Cart"
+13. Click "Proceed to Checkout"
+14. Scroll Down and Click "Place Order"
+15. Verify Text "Payment"
+16. Inside Name on Card Textbox Write "Satya Nadella"
+17. Card Number Textbox write "1234 5678 9012"
+18. CVC Textbox write "311"
+19. In MM Textbox write "12" and in YYYY Textbox write "2026"
+20. Click Pay and Confirm Order
+21. Wait for 2 seconds
+21. Verify "Congratulations! Your order has been confirmed!"
+22. Click Continue Button
+23. Click Logout on the top navbar
+24. Verify Text "Login to your account"
+25. Close the browser
+
+
+2. MAKE PAGE OBJECT MODEL
+3. CREATE API TEST CASES FOR IT
